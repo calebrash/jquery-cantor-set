@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		h1 { text-align:center; margin:100px 0 30px 0; font-family:'Helvetica Neue', 'Helvetica', Arial; font-size:22px; font-weight:200; color:#663; font-style:oblique; }
+		.cantor-set { margin:0 auto; }
+		.cantor-set-row { float:left; clear:left; }
+		.cantor-set-segment { margin:5px 0 0 0; height:20px; float:left; }
+		.cantor-set-segment-on { background:#366; }
+		.cantor-set-segment-off { background:#fff; }
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script src="cantor-set.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('#set').cantor_set({width: 500});
+		});
+	</script>
+</head>
+<body>
+	<h1>The Cantor Set</h1>
+	<div id="set"></div>
+</body>
+</html>
