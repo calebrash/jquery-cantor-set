@@ -1,8 +1,8 @@
 (function($) {
 
 	$.cantor_set_options = {
-		width: 300,		// width of the cantor set
-		tolerance: 1	// minimum segment width, 1px for most screens
+		width: 300      // width of the cantor set
+		tolerance: 1    // minimum segment width, 1px for most screens
 	};
 
 
@@ -47,5 +47,5 @@
 			$(this).children('.cantor-set-row').cantorize(options.tolerance);
 		});
 	};
-	
+
 })(jQuery);
