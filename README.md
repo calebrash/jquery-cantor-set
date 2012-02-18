@@ -13,7 +13,7 @@ Instead of calculating the nth term of the Cantor Set, this algorithm uses the p
 - If a segment of 'on', split the segment into three segments, turning the middle one 'off'.
 - Stitch everything together and draw the whole row.
 - Repeat the process with the new row.
-- Continue recursively until the currents row's segments' widths are less than the tolerance.
+- Continue recursively until the current row's segments' widths (whew!) are less than the tolerance.
 
 ##How to use the code
 
@@ -28,6 +28,6 @@ You can also set a width and/or a tolerance. If you set a tolerance less than or
 ```javascript
 $('#selector').cantor_set({
     width: 1000,
-    tolerance: 0.5
+    tolerance: 5
 });
 ```
