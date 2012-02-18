@@ -31,3 +31,13 @@ $('#selector').cantor_set({
     tolerance: 5
 });
 ```
+
+Then, you'll need a bit of CSS to make everything stand out. The basic CSS is below.
+
+```css
+.cantor-set-row { float:left; clear:left; }
+.cantor-set-segment { float:left; height:20px; }
+.cantor-set-segment-on { background:#000; }
+.cantor-set-segment-off { background:none; }
+```
+
