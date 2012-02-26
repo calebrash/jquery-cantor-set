@@ -36,7 +36,7 @@
 
 
 	// cantor_set:
-	// this draws the first row and sends starts the cantorization process
+	// this draws the first row and starts the cantorization process
 
 	$.fn.cantor_set = function(options) {
 		options = typeof options == 'object' ? $.extend(true, {}, $.cantor_set_options, options) : $.cantor_set_options;
